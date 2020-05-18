@@ -10,8 +10,7 @@ void main() {
       backgroundColor: Colors.blueGrey,
       body: Center(
         child: Image(
-          image: NetworkImage(
-              'https://i.ya-webdesign.com/images/diamonds-clipart-transparent-background-9.png'),
+          image: AssetImage('images/diamond.png'),
         ),
       ),
     ),
